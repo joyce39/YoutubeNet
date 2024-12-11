@@ -1,2 +1,0 @@
-[console_scripts]
-youtube_comment_scraper = youtube_comment_scraper.main:main
