@@ -1,16 +1,17 @@
-# YoutubeNet
-Youtube data analysis graph
+# YoutubeNet: A Network and Sentiment Analysis of YouTube Videos
 
-youtube.ipynb is the main notebook. Details about the code and methods can be found there in addition to next steps TO DO.
-The top_videos folder is the fetched json files per coutry with teh top videos and their attributes (more deets on this in the notebook)
-The client key for youtube API is the client secret json. the libraries and script are there to support scraping method.
-The csv file has the list country codes we iterate over.
-Top_videos_filtered excludes all untagged video.
+## Overview
+This repository contains the **explainer notebook** for our research project, *YoutubeNet - A Network and Sentiment Analysis of YouTube Videos*. The study explores the structure of YouTube networks, community detection, and sentiment analysis of video comments and transcripts. The included notebook provides detailed insights into our methodology, findings, and visualizations.
 
-Note: if needed we can probably expand the network by fetching more Top Videos on other dates.
+## Contents
+- **Explainer Notebook (`.ipynb`)**: The primary notebook explaining the research, complete with data visualizations, analysis, and code.
 
-Relevant Links:
- - Youtube API: https://developers.google.com/youtube/v3/docs
- - Comment Scraper: https://github.com/egbertbouman/youtube-comment-downloader
- - Transcript/ Caption fetching: https://github.com/jdepoix/youtube-transcript-api/tree/master/youtube_transcript_api
- - Data Fetching Progress Sheet: https://docs.google.com/spreadsheets/d/1UP_Di39jnhep7YqQ1M4-2w5ZPY32xywLv26b4Bfpgi0/edit?gid=1912478656#gid=1912478656
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/joyce39/YoutubeNet.git
+   ```
+2. Open the `.ipynb` notebook using Jupyter Notebook or a compatible environment:
+   ```bash
+   jupyter notebook
+   ```
